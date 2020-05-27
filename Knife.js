@@ -11,7 +11,7 @@ class Knife
       this.body = Bodies.rectangle(x, y, 50,50, options);
       this.width = 50;
       this.height = 50;
-      this.image = loadImage("Images/Knife.PNG");
+      this.image = loadImage("Images/knife.PNG");
 
       World.add(world, this.body);
     }
